@@ -10,7 +10,16 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hola guille");
+
+            Cmatriz matriz1 = new Cmatriz();
+            matriz1.a = 3;
+            matriz1.b = 2;
+
+            matriz1.muestra();
+
+            matriz1.Suma();
+
+            matriz1.muestra();
         }
     }
 }
