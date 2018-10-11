@@ -20,6 +20,7 @@ namespace ConsoleApp1
             matriz1.Suma();
 
             matriz1.muestra();
+            matriz1.muestra();
         }
     }
 }
